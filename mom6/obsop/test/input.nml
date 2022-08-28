@@ -1,0 +1,28 @@
+&GRID_DIMENSIONS_NML
+ NLON= 72       ,
+ NLAT= 36       ,
+ NLEV= 50         ,
+ /
+&PARAMS_MODEL_NML
+ GRIDFILE="../RESTART/MOM.res.nc",
+ GRIDFILE1="../MOM.res_1.nc",
+ GRIDFILE2="../INPUT/ocean_topog_Edited.nc",
+ GRIDFILE3="../INPUT/ocean_hgrid.nc",
+ GRID_NLON_NAME="lonh",
+ GRID_NLAT_NAME="lath",
+ GRID_NLEV_NAME="Layer",
+ GRID_LON_NAME="lonh",
+ GRID_LAT_NAME="lath",
+ GRID_LEV_NAME="Layer",
+ GRID_H_NAME="h",
+ GRID_LON2D_NAME="x",
+ GRID_LAT2D_NAME="y",
+ GRID_WET_NAME="wet",
+ GRID_DEPTH_NAME="depth",
+ /
+
+&PARAMS_OBS_NML
+ /
+
+&PARAMS_LETKF_NML
+ /
