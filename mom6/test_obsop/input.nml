@@ -4,10 +4,10 @@
  NLEV= 50         ,
  /
 &PARAMS_MODEL_NML
- GRIDFILE="../RESTART/MOM.res.nc",
- GRIDFILE1="../MOM.res_1.nc",
- GRIDFILE2="../INPUT/ocean_topog_Edited.nc",
- GRIDFILE3="../INPUT/ocean_hgrid.nc",
+ GRIDFILE="../obsop/RESTART/MOM.res.nc",
+ GRIDFILE1="../obsop/MOM.res_1.nc",
+ GRIDFILE2="../obsop/INPUT/ocean_topog_Edited.nc",
+ GRIDFILE3="../obsop/INPUT/ocean_hgrid.nc",
  GRID_NLON_NAME="lonh",
  GRID_NLAT_NAME="lath",
  GRID_NLEV_NAME="Layer",
