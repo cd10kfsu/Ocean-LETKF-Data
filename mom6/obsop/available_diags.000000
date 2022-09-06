@@ -30,7 +30,7 @@
     ! modules: ocean_model
     ! long_name: Longitude of zonal velocity (Cu) points
     ! units: degrees_east
-"area_t"  [Unused]
+"area_t"  [Used]
     ! modules: ocean_model
     ! long_name: Surface area of tracer (T) cells
     ! units: m2
@@ -72,7 +72,7 @@
     ! modules: ocean_model
     ! long_name: 0 if land, 1 if ocean at meridional velocity (Cv) points
     ! units: none
-"Coriolis"  [Unused]
+"Coriolis"  [Used]
     ! modules: ocean_model
     ! long_name: Coriolis parameter at corner (Bu) points
     ! units: s-1
