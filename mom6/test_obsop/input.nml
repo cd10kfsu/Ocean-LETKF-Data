@@ -19,6 +19,21 @@
  GRID_LAT2D_NAME="y",
  GRID_WET_NAME="wet",
  GRID_DEPTH_NAME="depth",
+ 
+ DIAG_LON_NAME="xh",
+ DIAG_LAT_NAME="yh",
+ DIAG_LEV_NAME="zl",
+ DIAG_TEMP_NAME="temp",
+ DIAG_SALT_NAME="salt",
+ DIAG_U_NAME="u",
+ DIAG_V_NAME="v",
+ DIAG_H_NAME="h",
+ DIAG_SSH_NAME="SSH",
+ DIAG_DO_TEMP = T, 
+ DIAG_DO_SALT = T, 
+ DIAG_DO_U    = T,
+ DIAG_DO_V    = T,
+ DIAG_DO_SSH  = T,
  /
 
 &PARAMS_OBS_NML
